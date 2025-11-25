@@ -16,4 +16,5 @@ sudo docker run -d --name firefox \
 -v /data/firefox/config:/config:rw \
 -v /home/codespace/awa:/home/abc/awa:rw \
 -e LANG=zh_CN.UTF-8 \
+
 --shm-size 2g jlesage/firefox
