@@ -8,8 +8,6 @@ sudo mkdir -p /workspaces/bt-in-githab-serve/Firefox
 sudo chmod 777 -R ~/awa
 sudo docker run -d --name firefox \
 -e TZ=America/New_York \
--e DISPLAY_WIDTH=1280 \
--e DISPLAY_HEIGHT=800 \
 -e KEEP_APP_RUNNING=1 \
 -e ENABLE_CJK_FONT=1 \
 -p 5800:5800 \
